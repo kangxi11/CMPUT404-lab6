@@ -7,3 +7,5 @@
     /polls/38/vote/ shows a page that says 'You're voting on question 38.'. Inputting a string returns 404 Page not found. You can remove the 'int:'
     in the paths of polls/url.py to accept an arbitrary string
 7. It doesn't allow for dynamic web pagesand it makes changing the website harder
+8. Using generic views makes creating views easier with less code and reduces redundent code for views that share similar code. If the view you want to create is not
+    a generic view already you would have to create your own view.

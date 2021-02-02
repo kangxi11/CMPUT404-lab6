@@ -1,3 +1,9 @@
 1. https://github.com/kangxi11/CMPUT404-lab4.git
 2. It shows a default django page saying 'The install worked successfully! Congratulations!'
 3. Going to the path '/' returns 404 Page Not Found because the only pages that exist are /polls/ and /admin/. Going to /polls/ returns the HttpRequest from /polls/views.py
+4. Migrations propagate changes made to the models. We need to run them because it will apply the changes we made to our tables of the database.
+5. I see the site administration page with my different views and authentication. To add custom models we can create a new application and a models.py inside it
+6. /polls/38 shows a page that says 'You're looking at question 38.'. /polls/38/results shows a page that says 'You're looking at the results of question 38.'. 
+    /polls/38/vote/ shows a page that says 'You're voting on question 38.'. Inputting a string returns 404 Page not found. You can remove the 'int:'
+    in the paths of polls/url.py to accept an arbitrary string
+7. 
